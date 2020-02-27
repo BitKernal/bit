@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Al Baker  -->
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/styles01.css">
+	<meta name="description" content="class project.">
+</head>
+<body>
+	
+
+<div id="container">
+	<header>
+			<h1>Contact Us</h1>	
+	<img class="shark" src="images/shark2.png" alt="Shark logo" style="width: 10%;">
+	</header>
+
+	
+<!-- Use the nav area to add hyperlink to other pages within the website -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="assignments.html">Assignments</a></li>
+			<li><a href="certs.html">Certifications</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contactus.html">Contact Us</a></li> 
+		</ul> 
+	</nav>
+
+
+	<main>
+
+		<!-- Use the main area to add the main content of the webpage -->
+			<h2>Ready to get started?</h2>
+			<h2>Complete the form below to begin your free trial.</h2>
+
+			
+		<!--Start Form-->
+	<fieldset>
+		<form action="contactus.php" method="POST">
+	
+			<label for="lName">Full Name:</label>
+				<input type="text" name="name" id="lName"> <br>
+
+			<label for="email">Email:</label>
+				<input type="text" name="email" /><br />
+
+			<label for="phone">Phone:</label>
+				<input type="tel" name="phone" id="phone"><br>
+
+			<p>I would like more information about:</p>
+				<ul>
+					<li><input type="checkbox" name="website" id="website" value="website" class="chkbx">Website</li>
+					<li><input type="checkbox" name="ecommerce" id="Ecommerce" value="Ecommerce" class="chkbx">E-commerce</li>
+					<li><input type="checkbox" name="seo" id="seo" value="seo" class="chkbx">S.E.O</li>
+				</ul>
+			<label for="reference">Referral Sources:</label>
+				<select name="reference"
+				id="reference">
+				<option value="ad">Advertisement</option>
+				<option value="friend">Friend</option>
+				<option value="google">Google</option>
+				<option value="social media">Social Media</option>
+				<option value="other">Other</option>
+				</select>
+
+			<label for="subject">Subject:</label>
+			<input type="subject" name="subject" id="subject"><br>
+
+			<label for="questions">Questions</label>
+			<textarea name="comment" rows="6" cols="100"></textarea><br />
+			<input type="submit" name="submit" id="submit" value="Submit your comment" class="btn" onclick="alert(Thank you)" /><br />
+		</form>
+	</fieldset>
+		
+		
+
+	  	    <p>We are located at:<br>
+			8475 Waverly Rd <br>
+			St. Pete FL. 33702</p>
+
+			<p>Phone Number</p>
+			<p><a class="mobile" href="tel:7272698618">(727)-269-8618</a>
+			</p>
+			
+			<p>Email Address</p>
+			<p><a href="mailto:downunderservice@gmail.com">downunderservice@gmail.com</a></p>
+
+
+		</main>
+
+	<footer> 
+			&copy; Copyright 2015.  All rights Reserved.<br>
+			<a href="mailto:downunderservice@gmail.com">Press here to send email:</a> 
+	</footer>
+
+	<footer>
+<div id="social">
+			<p>Connect with us:</p>
+
+			<p><a href="https://www.facebook.com/Down-Under-Service-906529859387417/"><img src="images/fblogo.png" alt="Facebook logo" style="width: 5%;"></a>
+			
+			<a href="https://twitter.com/search?q=Down%20Under%20Service&src=typd"><img src="images/twitterlogo.png" alt="Twitter logo" style="width: 5%;"></a>
+
+			<a href="https://www.pinterest.com/downunderservic/?eq=downunderservi&etslf=7695">
+			<img src="images/pinterestlogo.png" alt="Pinterest logo" style="width: 4%;"></a></p>
+		</div>	
+	</footer>
+	
+</div>
+</body>	
+</html>

@@ -1,0 +1,241 @@
+/* Style sheet by:  AL Baker April 5,2019 */
+
+/* Style for body specifies a background color */
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	line-height: 1;
+    text-rendering:optimizeLegibility;
+	background-color: #FAFAFA;
+}
+
+/* Syle for header specifies top and bottom margin, background color, round border, shadow and align */
+header {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	background-color: #FFFFFF;
+	border-radius: 2em;
+	box-shadow: 12px 12px 12px #404040;
+	text-align: center;
+}
+
+
+/* Sytle for container centers the page and sets the element width */
+#container {
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	margin: 0 auto 0 auto;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+	border-radius: 2em;
+	border-top: 2em solid #FFFFFF;
+	border-bottom: 2em solid #FFFFFF;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+nav ul li  {
+		list-style: none;
+		text-align: center;
+	
+	}
+
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+
+main {
+	border: solid;
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 2vw;
+	margin: 0 auto 0 auto;
+	padding: 3em;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 2vw 2vw 5vw #404040;
+}
+
+
+
+
+main-2  ul li a {
+	box-shadow: 2vw 2vw 5vw #404040;
+	float: left;
+	list-style: none;
+	display: inline;
+	text-align: center;
+	
+}
+
+main-2  {
+	box-shadow: 2vw 2vw 5vw #404040;
+	border: solid;
+	float: left;
+	list-style: none;
+	display: inline;
+	text-align: center;
+	width: 80%;
+}
+
+
+main ul li {
+	list-style: none;
+	display: inline;
+	background-color: #F4F7F4;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .5em;
+	text-align: center;
+	
+}
+
+.floatright {
+	float: right;
+}
+		
+h1 h2 h5 {
+	text-align: center;
+}
+
+nav li a {
+	word-spacing: 1vw;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+fieldset {
+	width: 70%;
+	height: 100%;
+
+
+}
+
+/*ul {
+	text-align: center;
+}*/
+
+img {
+	float: right;
+}
+main a:visited {
+	color: green;
+}
+
+main a:hover {
+	color: red;
+} 
+
+label {
+	margin: auto;
+	display: list-item;
+	display: block;
+	
+}
+
+
+.shark {
+  width: 8vw;
+  /*height: 100px;*/
+  position: absolute;
+  left: 90%; top: 12%;
+  -webkit-animation-name: shark; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: shark;
+  animation-duration: 30s;
+  animation-iteration-count: 3;
+}
+
+
+
+/*/*/*/* Safari 4.0 - 8.0 */
+@keyframes shark {
+   0%{left: 90%; top: 12%; width: .1vw;}
+	1%{animation-play-state: running;}
+    5%% { transform: translate(15px, 5px) rotate(22deg); }
+     10% { transform: translate(5px, 5px) rotate(0deg); }
+      15% {animation-play-state: paused, paused, paused,paused, paused, paused;}
+    25% {transform: rotateY(80deg);}
+   30% {left: 90%; top: 24%; width: 15vw;}
+   35% {transform: rotateX(20deg);}
+   40% {-webkit-animation-play-state: paused, paused;}
+   45% {left: 50%; top: 30%; width: 50vw;}
+   50% {transform: rotateY(180deg);}
+    55%{-webkit-animation-play-state: paused, paused, paused, paused;}
+    60% {-webkit-animation-play-state: paused, paused;}
+   65% {left:5%; top: 30% width 60vw;}
+   70% {-webkit-animation-play-state: paused, paused, paused;} 
+  75% {left: 75%; top: 24%; width: 15vw;}
+  75% {transform: rotateY(180deg);}
+   80% {-webkit-animation-play-state: paused, paused;}
+  85% { transform: translate(5px, 10px) rotate(19deg); }
+     90% {left: -90%; top: -12%; width: 5vw;}
+    95% { transform: translate(-15px, 5px) rotate(29deg); }
+    100% {left: -90%; top: -12%; width: .1vw;}
+}
+ 
+ 
+
+/* Standard syntax */
+@-webkit-keyframes shark {
+	 0%{left: 90%; top: 12%; width: .1vw;}
+	1%{animation-play-state: running;}
+    5%% { transform: translate(15px, 5px) rotate(22deg); }
+     10% { transform: translate(5px, 5px) rotate(0deg); }
+      15% {animation-play-state: paused, paused, paused,paused, paused, paused;}
+    25% {transform: rotateY(80deg);}
+   30% {left: 90%; top: 24%; width: 15vw;}
+   35% {transform: rotateX(20deg);}
+   40% {-webkit-animation-play-state: paused, paused;}
+   45% {left: 50%; top: 30%; width: 50vw;}
+   50% {transform: rotateY(180deg);}
+    55%{-webkit-animation-play-state: paused, paused, paused, paused;}
+    60% {-webkit-animation-play-state: paused, paused;}
+   65% {left:5%; top: 30% width 60vw;}
+   70% {-webkit-animation-play-state: paused, paused, paused;} 
+  75% {left: 75%; top: 24%; width: 15vw;}
+  75% {transform: rotateY(180deg);}
+   80% {-webkit-animation-play-state: paused, paused;}
+  85% { transform: translate(5px, 10px) rotate(19deg); }
+     90% {left: -90%; top: -12%; width: 5vw;}
+    95% { transform: translate(-15px, 5px) rotate(29deg); }
+    100% {left: -90%; top: -12%; width: .1vw;}
+}
+
+@media only screen and (min-width: 660px){
+
+nav li{
+	display: inline;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+	white-space: nowrap;
+	border-radius: 0;
+	background-color:transparent;
+	list-style: none;
+}
+
+}
+
+
+
+ @media only screen and (min-width: 830px) { 
+ 	
+
+}
+
